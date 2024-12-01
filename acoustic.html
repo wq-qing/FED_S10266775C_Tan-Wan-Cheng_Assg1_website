@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha Guitars</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c48506afbd.js" crossorigin="anonymous"></script>
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-left">
+                    <div class="logo">
+                        <h1>YAMAHA</h1>
+                    </div>
+                    <nav class="nav-links">
+                        <a href="index.html">HOME</a>
+                        <a href="acoustic.html">ACOUSTIC</a>
+                        <a href="electric.html">ELECTRIC</a>
+                        <a href="classical.html">CLASSICAL</a>
+                        <a href="bass.html">BASS</a>
+                    </nav>
+                </div>
+                <div class="cart-icon">
+                    <div class="nav-right">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <div class="searchbar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <button onclick="dropdown()" class="dropdown">
+                                <input id="searchbar" onkeyup="search_item()" type="text" name="search" placeholder="Search..">
+                                <div id="myDropdown" class="dropdown-content">                                    
+                                    <a class = "guitar" href="acoustic.html#featured">A Series</a>
+                                    <a class = "guitar" href="acoustic.html#featured">AX Series</a>
+                                    <a class = "guitar" href="acoustic.html#featured">AG Series</a>
+                                    <a class = "guitar" href="electric.html#featured">Electric Pacifica</a>
+                                    <a class = "guitar" href="electric.html#featured">Electric Revstar</a>
+                                    <a class = "guitar" href="electric.html#featured">RGX Series</a>
+                                    <a class = "guitar" href="classical.html#featured">CG(X) Series</a>
+                                    <a class = "guitar" href="classical.html#featured">C(X) Series</a>
+                                    <a class = "guitar" href="classical.html#featured">CS Series</a>
+                                    <a class = "guitar" href="bass.html#featured">BX Series</a>
+                                    <a class = "guitar" href="bass.html#featured">TB Series</a>
+                                    <a class = "guitar" href="bass.html#featured">TBX Series</a>
+                                </div>                    
+                            </button>                                                        
+                        </div>                                   
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <script src="search.js"></script>
+    </header>
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <div class="acoustic-hero-content">
+                <div class="alt-hero-text">
+                    <h1><span>Acoustic Guitars</span></h1>
+                    <a href="#featured" class="alt-cta-button">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Collection</h2>
+                </div>
+                <div class="guitar-grid">
+                    <div class="guitar-card">
+                        <div class="card-image">
+                            <img src="images/A58.jpg" alt="A58">
+                            <div class="card-overlay">
+                                <button href="cart.html" class="add-button">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <div class="card-content">
+                                <h3>A Series</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guitar-card">
+                        <div class="card-image">
+                            <img src="images/E612.jpeg" alt="E612">
+                            <div class="card-overlay">
+                                <button href="cart.html" class="add-button">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <div class="card-content">
+                                <h3>AX Series</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guitar-card">
+                        <div class="card-image">
+                            <img src="images/C825.jpg" alt="C82S">
+                            <div class="card-overlay">
+                                <button href="cart.html" class="add-button">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            <div class="card-content">
+                                <h3>AG Series</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-hammer"></i>
+                        <h3>Master Craftsmanship</h3>
+                        <p>Built by skilled artisans with decades of experience in guitar making.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Lifetime Support</h3>
+                        <p>Comprehensive warranty and dedicated support for your instrument.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Premium Materials</h3>
+                        <p>Hand-selected tonewoods and premium components for superior sound quality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>GUITARS</h4>
+                    <ul>
+                        <li><a href="#">Acoustic</a></li>
+                        <li><a href="#">Electric</a></li>
+                        <li><a href="#">Classical</a></li>
+                        <li><a href="#">Bass</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Find a Dealer</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Registration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="#">Artists</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>NEWSLETTER</h4>
+                    <p>Stay updated with our latest releases and articles.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Yamaha Corporation. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
